@@ -11,7 +11,15 @@
     <link rel="stylesheet" href="{% static 'main/css/main.css' %}">
 </head>
 <body>
-  {% block content %}
-  {% endblock %}
+    <aside>
+        <img src="{% static 'main/img/logo.png' %}" alt="logo">
+        <br>
+        <span class="logo">Nail</span>
+        <h3>Навигация</h3>
+    </aside>
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
 </body>
 </html>

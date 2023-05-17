@@ -7,3 +7,6 @@ def index(request):
 
 def about(request):
     return render(request, 'main/about.html')
+
+def fire(request):
+    return render(request, 'main/fire.html')
